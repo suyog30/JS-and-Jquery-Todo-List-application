@@ -1,0 +1,51 @@
+.done{
+	text-decoration: line-through;
+  }
+
+span{
+	display:inline-block;
+	width: 40px;
+	height: 40px;
+	color: white;
+	text-align: center;
+	background-color: red;
+}
+
+h3{
+	color: white;
+}
+
+.container-fluid{
+	display:flex;
+	justify-content: space-between;
+	align-items:flex-start;
+	padding: 2px;
+	background-color: turquoise;
+}
+#plus{
+	color: white;
+	float: right;
+}
+
+#new {
+	width: 100%;
+}
+
+ul{
+	list-style-type: none;
+}
+
+ul li:hover {
+	background: #ddd;
+}
+
+ul li {
+	cursor: pointer;
+	position: relative;
+	font-size: 18px;
+	transition: 0.2s;
+  }
+  ul {
+	margin: 0;
+	padding: 0;
+  }
